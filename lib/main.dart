@@ -15,10 +15,10 @@ void main() async {
   isviewed = prefs.getInt('onBoard');
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: "AIzaSyAq6FiH6u0Nc-6GW3fy26NfqEDFUOZNPFY",
-          appId: "1:414378218880:android:5a92f43bcbe1ee36cf5d65",
+          apiKey: "AIzaSyBxnURDPRYWgFJ7z6wyalS7fi4XxVBv-Mw",
+          appId: "1:420396865150:android:0554be8ed86e0e8f72ea2f",
           messagingSenderId: "XXX",
-          projectId: "skindiseaseprediction-a96d9"));
+          projectId: "skinsnap-ff898"));
   runApp(const MyApp());
 }
 

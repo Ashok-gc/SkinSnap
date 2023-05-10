@@ -1,12 +1,10 @@
-
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:skinsnap/src/screen/treatment_screen.dart';
-
-import '../../model/users.dart';
-import '../Utilities/constant.dart';
+import 'package:google_fonts/google_fonts.dart';import 'package:skinsnap/src/screen/treatment_screen.dart';
+import 'package:skinsnap/model/disease.dart' as disease;
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/Utilities/constant.dart';
 
 class ReportScreen extends StatefulWidget {
   const ReportScreen({super.key});

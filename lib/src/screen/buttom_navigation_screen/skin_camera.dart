@@ -6,12 +6,12 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:skinsnap/model/users.dart';
 
+import 'package:skinsnap/src/Utilities/constant.dart';
+import 'package:skinsnap/src/screen/treatment_screen.dart';
 import 'package:tflite/tflite.dart';
-
-import '../../../model/users.dart';
-import '../../Utilities/constant.dart';
-import '../treatment_screen.dart';
+import 'package:skinsnap/model/disease.dart' as disease;
 
 class SkinCameraScreen extends StatefulWidget {
   const SkinCameraScreen({super.key});
