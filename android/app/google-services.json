@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "420396865150",
+    "project_id": "skinsnap-ff898",
+    "storage_bucket": "skinsnap-ff898.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420396865150:android:0554be8ed86e0e8f72ea2f",
+        "android_client_info": {
+          "package_name": "com.packages.skinsnap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420396865150-oj2h3ag5l6e8atjhlk3bvqj1qnvsc573.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.packages.skinsnap",
+            "certificate_hash": "a2718df03a97be15a6816d7c94c9a4b9d4997e2f"
+          }
+        },
+        {
+          "client_id": "420396865150-rpaarmdmntapq4u39tcgih06lgk94spk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxnURDPRYWgFJ7z6wyalS7fi4XxVBv-Mw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420396865150-rpaarmdmntapq4u39tcgih06lgk94spk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
