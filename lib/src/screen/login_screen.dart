@@ -1,12 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/screen/forgetscreen.dart';
+import 'package:skinsnap/src/screen/navigationBar.dart';
 import 'package:skinsnap/src/screen/signupscreen.dart';
-
-import '../../model/users.dart';
 import '../Utilities/colors.dart';
-import 'forgetscreen.dart';
-import 'navigationBar.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

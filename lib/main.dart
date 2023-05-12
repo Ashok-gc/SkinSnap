@@ -1,7 +1,7 @@
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:skinsnap/src/screen/splash_screen.dart';
 
 int? isviewed;
@@ -15,10 +15,10 @@ void main() async {
   isviewed = prefs.getInt('onBoard');
   await Firebase.initializeApp(
       options: const FirebaseOptions(
-          apiKey: "AIzaSyBxnURDPRYWgFJ7z6wyalS7fi4XxVBv-Mw",
-          appId: "1:420396865150:android:0554be8ed86e0e8f72ea2f",
+          apiKey: "AIzaSyAq6FiH6u0Nc-6GW3fy26NfqEDFUOZNPFY",
+          appId: "1:414378218880:android:5a92f43bcbe1ee36cf5d65",
           messagingSenderId: "XXX",
-          projectId: "skinsnap-ff898"));
+          projectId: "skindiseaseprediction-a96d9"));
   runApp(const MyApp());
 }
 

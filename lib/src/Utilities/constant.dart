@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../model/users.dart';
+import 'package:skinsnap/model/users.dart';
 
 Color kblue = const Color(0xFF4756DF);
 Color kwhite = const Color(0xFFFFFFFF);

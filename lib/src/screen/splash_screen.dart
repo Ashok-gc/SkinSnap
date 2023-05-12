@@ -1,10 +1,8 @@
-
 import 'package:easy_splash_screen/easy_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'login_screen.dart';
-import 'onboarding.dart';
+import 'package:skinsnap/src/screen/login_screen.dart';
+import 'package:skinsnap/src/screen/onboarding.dart';
 
 class SplashScreen extends StatefulWidget {
   int? isviewed;

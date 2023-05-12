@@ -2,10 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import '../../../model/users.dart';
-import '../../Utilities/constant.dart';
-import '../login_screen.dart';
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/Utilities/constant.dart';
+import 'package:skinsnap/src/screen/login_screen.dart';
 
 class ChangePassword extends StatefulWidget {
   const ChangePassword({super.key});

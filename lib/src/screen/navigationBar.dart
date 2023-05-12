@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/Utilities/constant.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/google_map.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/home_screen.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/profile_screens.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/skin_camera.dart';
 import 'package:skinsnap/src/screen/report_screen.dart';
-
-import '../../model/users.dart';
-import 'buttom_navigation_screen/google_map.dart';
-import 'buttom_navigation_screen/home_screen.dart';
-import 'buttom_navigation_screen/profile_screen.dart';
-import 'buttom_navigation_screen/skin_camera.dart';
 
 class Navigation extends StatefulWidget {
   Users? users;

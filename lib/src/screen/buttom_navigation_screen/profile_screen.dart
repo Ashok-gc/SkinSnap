@@ -6,10 +6,9 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:motion_toast/motion_toast.dart';
-
-import '../../../model/users.dart';
-import '../../Utilities/constant.dart';
-import '../login_screen.dart';
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/Utilities/constant.dart';
+import 'package:skinsnap/src/screen/login_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});

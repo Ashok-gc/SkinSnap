@@ -6,10 +6,9 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
-
-import '../../../model/users.dart';
-import '../../Utilities/constant.dart';
-import '../login_screen.dart';
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/Utilities/constant.dart';
+import 'package:skinsnap/src/screen/login_screen.dart';
 
 class EditProfile extends StatefulWidget {
   const EditProfile({super.key});

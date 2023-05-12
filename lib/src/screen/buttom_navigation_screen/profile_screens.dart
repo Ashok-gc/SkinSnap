@@ -3,13 +3,12 @@ import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import '../../../model/users.dart';
-import '../../Utilities/constant.dart';
-import '../login_screen.dart';
-import 'change_password.dart';
-import 'edit_profile.dart';
-import 'faq_screen.dart';
+import 'package:skinsnap/model/users.dart';
+import 'package:skinsnap/src/Utilities/constant.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/change_password.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/edit_profile.dart';
+import 'package:skinsnap/src/screen/buttom_navigation_screen/faq_screen.dart';
+import 'package:skinsnap/src/screen/login_screen.dart';
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});

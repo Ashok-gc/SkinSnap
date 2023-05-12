@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:skinsnap/src/screen/login_screen.dart';
 import '../Utilities/constant.dart';
 import '../Utilities/onboard_model.dart';
 import 'package:google_fonts/google_fonts.dart';
-
-import 'login_screen.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
